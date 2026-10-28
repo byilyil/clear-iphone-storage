@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clear iPhone Storage – Support</title>
+<meta name="description" content="Help and contact for the Clear iPhone Storage app.">
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1c1d21;
+    --muted: #61656f;
+    --line: #e3e5ea;
+    --accent: #2f6bff;
+    --chip: #eef1f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e0f12;
+      --card: #17191e;
+      --text: #eceef2;
+      --muted: #9a9fab;
+      --line: #2a2d34;
+      --accent: #6d97ff;
+      --chip: #23262d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  .langs { display: flex; gap: 8px; justify-content: flex-end; margin-bottom: 20px; }
+  .langs button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--muted);
+    font: inherit;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .langs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  article {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 32px 28px;
+  }
+  article + article { margin-top: 24px; }
+  .js article:not(.active) { display: none; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  .contact {
+    background: var(--chip);
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+  .contact p { margin: 0 0 12px; }
+  .button {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 12px;
+  }
+  .contact small { display: block; color: var(--muted); margin-top: 10px; }
+  details {
+    border-bottom: 1px solid var(--line);
+    padding: 14px 0;
+  }
+  details:last-of-type { border-bottom: 0; }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--muted); font-weight: 400; font-size: 20px; line-height: 1.2; }
+  details[open] summary::after { content: "–"; }
+  details p { margin: 10px 0 0; }
+  .path {
+    display: inline-block;
+    background: var(--chip);
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 15px;
+  }
+  a { color: var(--accent); }
+  .links { margin: 28px 0 0; color: var(--muted); font-size: 15px; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; margin-top: 28px; }
+  @media (max-width: 520px) {
+    article { padding: 24px 18px; border-radius: 16px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <nav class="langs" aria-label="Language">
+    <button type="button" data-lang="en">English</button>
+    <button type="button" data-lang="tr">Türkçe</button>
+    <button type="button" data-lang="es">Español</button>
+  </nav>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <article lang="en" id="en">
+    <h1>Clear iPhone Storage Support</h1>
+    <p class="lead">Questions, problems or ideas? We’re happy to help.</p>
+
+    <div class="contact">
+      <p>Email us and we’ll get back to you as soon as we can.</p>
+      <a class="button" href="mailto:behcetyilmazzz@icloud.com?subject=Clear%20iPhone%20Storage%20Support">behcetyilmazzz@icloud.com</a>
+      <small>Tip: in the app, Settings › Send feedback opens an email with the app version already filled in.</small>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <details>
+      <summary>I deleted photos, but my free space didn’t change.</summary>
+      <p>iPhone keeps deleted photos in “Recently Deleted” for 30 days, and they keep using space until then. To free the space now, open <span class="path">Photos › Albums › Recently Deleted › Select › Delete All</span>. The Clean tab shows how much is still waiting there.</p>
+    </details>
+
+    <details>
+      <summary>Can I get deleted photos back?</summary>
+      <p>Yes, for 30 days. Open “Recently Deleted” in the Photos app, select the items and tap Recover.</p>
+    </details>
+
+    <details>
+      <summary>Clear doesn’t find all of my photos.</summary>
+      <p>You probably gave access to selected photos only. Allow full access in <span class="path">Settings › Clear Storage › Photos › Full Access</span>, or tap “Allow full photo access” in the app’s Settings tab, then scan again.</p>
+    </details>
+
+    <details>
+      <summary>Some Live Photos or videos can’t be converted or compressed.</summary>
+      <p>If your originals are stored in iCloud, iPhone needs to download them first. Connect to Wi-Fi and try again. Some videos are already as small as they can be, so they are skipped and nothing is changed.</p>
+    </details>
+
+    <details>
+      <summary>I merged contacts by mistake.</summary>
+      <p>Clear saves a backup before every merge or delete. Open the Contacts tab, tap Backups and share a backup to Contacts (or save it to Files and open it) to add those contacts back.</p>
+    </details>
+
+    <details>
+      <summary>Can Clear delete apps, clear Safari or empty Recently Deleted for me?</summary>
+      <p>iOS doesn’t allow any app to do these for you. Open the Tools tab › “More ways to free space” for step-by-step guides; each one takes less than a minute.</p>
+    </details>
+
+    <details>
+      <summary>Are my photos or contacts uploaded anywhere?</summary>
+      <p>No. Everything is analyzed on your iPhone, and the app has no servers, analytics or ads. Read the <a href="privacy.html?lang=en">Privacy Policy</a> for details.</p>
+    </details>
+
+    <details>
+      <summary>How do I remove everything Clear has stored?</summary>
+      <p>Delete the app. Its scan cache, settings and contact backups are removed with it. Your photos and contacts stay as they are.</p>
+    </details>
+
+    <p class="links"><a href="privacy.html?lang=en">Privacy Policy</a></p>
+  </article>
+
+  <!-- ===================== TÜRKÇE ===================== -->
+  <article lang="tr" id="tr">
+    <h1>Clear iPhone Storage Destek</h1>
+    <p class="lead">Sorun, soru ya da önerin mi var? Yardımcı olmaktan memnuniyet duyarız.</p>
+
+    <div class="contact">
+      <p>Bize e-posta gönder, en kısa sürede dönüş yaparız.</p>
+      <a class="button" href="mailto:behcetyilmazzz@icloud.com?subject=Clear%20iPhone%20Storage%20Destek">behcetyilmazzz@icloud.com</a>
+      <small>İpucu: uygulamada Ayarlar › Geri bildirim gönder, uygulama sürümü yazılı bir e-posta açar.</small>
+    </div>
+
+    <h2>Sık sorulan sorular</h2>
+
+    <details>
+      <summary>Fotoğrafları sildim ama boş alanım artmadı.</summary>
+      <p>iPhone silinen fotoğrafları 30 gün boyunca “Son Silinenler”de tutar ve bu süre boyunca yer kaplamaya devam ederler. Yeri hemen açmak için <span class="path">Fotoğraflar › Albümler › Son Silinenler › Seç › Tümünü Sil</span> yolunu izle. Temizle sekmesi orada ne kadar beklediğini gösterir.</p>
+    </details>
+
+    <details>
+      <summary>Silinen fotoğrafları geri getirebilir miyim?</summary>
+      <p>Evet, 30 gün içinde. Fotoğraflar uygulamasında “Son Silinenler”i aç, öğeleri seç ve Kurtar’a dokun.</p>
+    </details>
+
+    <details>
+      <summary>Clear tüm fotoğraflarımı bulmuyor.</summary>
+      <p>Büyük ihtimalle sadece seçili fotoğraflara erişim verdin. <span class="path">Ayarlar › Clear Storage › Fotoğraflar › Tam Erişim</span> yolundan tam erişim ver ya da uygulamanın Ayarlar sekmesinde “Tam fotoğraf erişimi ver”e dokun, sonra yeniden tara.</p>
+    </details>
+
+    <details>
+      <summary>Bazı Canlı Fotoğraflar veya videolar çevrilemiyor ya da sıkıştırılamıyor.</summary>
+      <p>Orijinallerin iCloud’daysa iPhone’un önce onları indirmesi gerekir. Wi-Fi’ye bağlanıp tekrar dene. Bazı videolar zaten olabildiğince küçüktür; bunlar atlanır ve hiçbir şey değişmez.</p>
+    </details>
+
+    <details>
+      <summary>Kişileri yanlışlıkla birleştirdim.</summary>
+      <p>Clear her birleştirme veya silme işleminden önce yedek alır. Kişiler sekmesini aç, Yedekler’e dokun ve bir yedeği Kişiler’e paylaş (ya da Dosyalar’a kaydedip aç); o kişiler geri eklenir.</p>
+    </details>
+
+    <details>
+      <summary>Clear uygulamaları silebilir, Safari’yi temizleyebilir ya da Son Silinenler’i boşaltabilir mi?</summary>
+      <p>iOS hiçbir uygulamanın bunları senin yerine yapmasına izin vermez. Araçlar sekmesindeki “Yer açmanın diğer yolları” bölümünde adım adım rehberler var; her biri bir dakikadan kısa sürer.</p>
+    </details>
+
+    <details>
+      <summary>Fotoğraflarım veya kişilerim bir yere yükleniyor mu?</summary>
+      <p>Hayır. Her şey iPhone’unda incelenir; uygulamanın sunucusu, analiz aracı veya reklamı yoktur. Ayrıntılar için <a href="privacy.html?lang=tr">Gizlilik Politikası</a>’na göz at.</p>
+    </details>
+
+    <details>
+      <summary>Clear’ın sakladığı her şeyi nasıl silerim?</summary>
+      <p>Uygulamayı sil. Tarama önbelleği, ayarlar ve kişi yedekleri de onunla birlikte silinir. Fotoğrafların ve kişilerin olduğu gibi kalır.</p>
+    </details>
+
+    <p class="links"><a href="privacy.html?lang=tr">Gizlilik Politikası</a></p>
+  </article>
+
+  <!-- ===================== ESPAÑOL ===================== -->
+  <article lang="es" id="es">
+    <h1>Soporte de Clear iPhone Storage</h1>
+    <p class="lead">¿Tienes preguntas, problemas o ideas? Estaremos encantados de ayudarte.</p>
+
+    <div class="contact">
+      <p>Escríbenos y te responderemos lo antes posible.</p>
+      <a class="button" href="mailto:behcetyilmazzz@icloud.com?subject=Clear%20iPhone%20Storage%20Soporte">behcetyilmazzz@icloud.com</a>
+      <small>Consejo: en la app, Ajustes › Enviar comentarios abre un correo con la versión de la app ya incluida.</small>
+    </div>
+
+    <h2>Preguntas frecuentes</h2>
+
+    <details>
+      <summary>Borré fotos, pero mi espacio libre no cambió.</summary>
+      <p>El iPhone guarda las fotos borradas en “Eliminado” durante 30 días y siguen ocupando espacio hasta entonces. Para liberarlo ya, abre <span class="path">Fotos › Álbumes › Eliminado › Seleccionar › Eliminar todo</span>. La pestaña Limpiar muestra cuánto espacio sigue esperando ahí.</p>
+    </details>
+
+    <details>
+      <summary>¿Puedo recuperar las fotos borradas?</summary>
+      <p>Sí, durante 30 días. Abre “Eliminado” en la app Fotos, selecciona los elementos y toca Recuperar.</p>
+    </details>
+
+    <details>
+      <summary>Clear no encuentra todas mis fotos.</summary>
+      <p>Probablemente diste acceso solo a algunas fotos. Permite el acceso total en <span class="path">Ajustes › Clear Storage › Fotos › Acceso total</span>, o toca “Permitir acceso total a fotos” en la pestaña Ajustes de la app, y vuelve a analizar.</p>
+    </details>
+
+    <details>
+      <summary>Algunas Live Photos o videos no se pueden convertir ni comprimir.</summary>
+      <p>Si tus originales están en iCloud, el iPhone necesita descargarlos primero. Conéctate a una red Wi-Fi e inténtalo de nuevo. Algunos videos ya son lo más ligeros posible; se omiten y no se cambia nada.</p>
+    </details>
+
+    <details>
+      <summary>Combiné contactos por error.</summary>
+      <p>Clear guarda una copia de seguridad antes de cada combinación o eliminación. Abre la pestaña Contactos, toca Copias de seguridad y comparte una copia con Contactos (o guárdala en Archivos y ábrela) para volver a añadir esos contactos.</p>
+    </details>
+
+    <details>
+      <summary>¿Puede Clear eliminar apps, borrar Safari o vaciar Eliminado por mí?</summary>
+      <p>iOS no permite que ninguna app haga esto por ti. Abre la pestaña Herramientas › “Más formas de liberar espacio” para ver guías paso a paso; cada una lleva menos de un minuto.</p>
+    </details>
+
+    <details>
+      <summary>¿Se suben mis fotos o contactos a algún sitio?</summary>
+      <p>No. Todo se analiza en tu iPhone, y la app no tiene servidores, analítica ni anuncios. Consulta la <a href="privacy.html?lang=es">Política de privacidad</a> para más detalles.</p>
+    </details>
+
+    <details>
+      <summary>¿Cómo borro todo lo que Clear ha guardado?</summary>
+      <p>Elimina la app. Su caché de análisis, sus ajustes y las copias de seguridad de contactos se borran con ella. Tus fotos y contactos quedan como están.</p>
+    </details>
+
+    <p class="links"><a href="privacy.html?lang=es">Política de privacidad</a></p>
+  </article>
+
+  <footer>© 2026 Behcet Yilmaz</footer>
+</main>
+<script>
+  (function () {
+    var langs = ["en", "tr", "es"];
+    var root = document.documentElement;
+    var params = new URLSearchParams(location.search);
+    var wanted = (params.get("lang") || location.hash.slice(1) || "").toLowerCase();
+    if (langs.indexOf(wanted) < 0) {
+      var nav = (navigator.language || "en").slice(0, 2).toLowerCase();
+      wanted = langs.indexOf(nav) >= 0 ? nav : "en";
+    }
+    function show(lang) {
+      root.lang = lang;
+      langs.forEach(function (l) {
+        document.getElementById(l).classList.toggle("active", l === lang);
+      });
+      document.querySelectorAll(".langs button").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+      });
+    }
+    root.classList.add("js");
+    show(wanted);
+    document.querySelectorAll(".langs button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        show(b.dataset.lang);
+        history.replaceState(null, "", "?lang=" + b.dataset.lang);
+      });
+    });
+  })();
+</script>
+</body>
+</html>
